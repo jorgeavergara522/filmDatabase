@@ -2,7 +2,7 @@ const express = require('express');
 const request = require('request');
 const { MongoClient } = require('mongodb');
 const { config } = require('./config.js');
-
+//API input
 const url = config.MONGO_URL;
 const omdb_KEY = config.OMDB_API_KEY;
 const ny_times_KEY = config.NY_TIMES_API_KEY;
